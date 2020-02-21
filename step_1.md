@@ -27,5 +27,7 @@
 # To run new cmd in running container
 - docker exec -it container_name "cmd"
 - docker exec -it container_name bash -> and execute all cmd in container
+# To get disk space in container
+- docker system df -v
 
 
