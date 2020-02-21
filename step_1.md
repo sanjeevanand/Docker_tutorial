@@ -29,5 +29,7 @@
 - docker exec -it container_name bash -> and execute all cmd in container
 # To get disk space in container
 - docker system df -v
+# To delete container on exit
+- docker run -dt --rm container_name "cmd"
 
 
