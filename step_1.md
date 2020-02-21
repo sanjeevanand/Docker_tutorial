@@ -16,3 +16,16 @@
 - docker start container_name
 # To check network
 -  netstat -ntlp
+# To run images with user's provided name
+- docker run --name=my_container -d -p 8090:80 nginx
+# To get information about container
+- docker inspect  container_name
+# To stop all container
+- docker container stop $(docker container ls -aq)
+# To remove comtainer 
+- docker container rm container_name
+# To run new cmd in running container
+- docker exec -it container_name "cmd"
+- docker exec -it container_name bash -> and execute all cmd in container
+
+
