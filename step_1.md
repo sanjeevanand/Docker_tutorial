@@ -8,3 +8,11 @@
 - docker ps
 # To run images 
 - docker run -dt -p 8090:80 nginx
+# to stop container
+- docker container stop container_name
+# To check all container status
+- docker ps -a
+# to start container 
+- docker start container_name
+# To check network
+-  netstat -ntlp
